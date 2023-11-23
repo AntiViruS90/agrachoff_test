@@ -1,0 +1,32 @@
+Всем привет!
+
+Итак, сайт сделан согласно макету https://www.figma.com/file/UH1uQS1Q04DAUKVMRAcVr0/Untitled?node-id=0%3A1, 
+а точнее width: 2034px; height: 805px; 
+	1. К иконке AGRACHOFF прикреплена ссылка перехода к главной странице
+	2. При кликании на "МЕНЮ" появляется dropdown_menu, при нажатии на крестик, меню исчезает, анимацию медленную настроил
+	3. При нажатии на "ПОРТФОЛИО" переходим на страницу с формой. Проблема была в том, что я не смог сделать запрос на тот сайт: https://api.forum-auto.ru/docs/listgoods.php, точнее, пробовал по разному, и с PHP и с JavaScript, но так и не получилось, может это из-за того, что как указано на сайте: "Сервис доступен только по протоколу HTTPS." Но я сделал другую форму, которая подключена к сайту: https://api.openweathermap.org/ и теперь, при вводе названия города, выдаётся информация по погоде.
+	4. При нажатии на "СХЕМА РАБОТЫ" переходим на страницу с Яндекс Карта, там всё сами поймёте)
+	5. В footer Отправить сообщение по email, нужно нажать на кнопку и форма появится.
+	6. В footer Кнопка для скачивания файла 
+
+
+FTP доступы:
+
+Хост: 77.222.40.238
+Логин: s01opulent_admin
+Пароль: RWZLTZMY712VC%eT
+Порт: 21
+
+Ссылка на GitHub:
+https://github.com/AntiViruS90/agrachoff_test.git
+
+Ссылка для скачивания .zip файла:
+https://github.com/AntiViruS90/agrachoff_test/archive/refs/heads/main.zip
+
+Сайт на WordPress: http://myfirst-site.ru.swtest.ru/
+Админка
+Логин: AdminSlava
+Пароль: %C7QXJPECp$OU!xExL
+
+Ссылка на мой GitHub:
+https://github.com/AntiViruS90
