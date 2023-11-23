@@ -1,0 +1,562 @@
+
+/* ############################################## Первый блок ##################################################### */
+.mainBlock {
+    width: 2034px; 
+    height: 805px; 
+    background: linear-gradient(100deg, #3625AF 0%, #C46BD5 100%);
+}
+.mainBlock .navMenu_text {
+    width: 824px; 
+    height: 19px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.navMenu {
+    width: 1507px;
+    height: 60px;
+    padding: 27px;
+    margin: 25px 216px 0 311px;
+    display: flex;
+    justify-content: space-between;
+}
+.navMenu_img {
+    width: 151px; 
+    height: 41px;
+    border: 1px solid #fff;
+}
+.navMenu_text div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    cursor: pointer;
+}
+.div_btn {
+    width: 246px;
+    height: 60px;
+}
+.call_btn {
+    width: 246px; 
+    height: 60px;
+    background: #302594;
+    box-shadow: 0px 22px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center; 
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+
+}
+.dropdown_menu {    
+    width: 154px;
+    height: 125px;
+    background: white;
+    border-radius: 7px;
+    text-align: left;
+    padding-left: 30px;
+    position: relative;
+    right: 32px;
+    bottom: 15px;
+}
+.dropdown_menu p {
+    color: #5C39BA;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+}
+.dropdownBlock {
+    position: relative;
+    width: 160px;
+    display: none;
+}
+.dropdownBlock img {
+    position: relative;
+    right: 100px;
+    bottom: 25px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ############################################## Второй блок ##################################################### */
+
+.blockTwo {
+    width: 570px;
+    height: 406px;
+    position: relative;
+    top: 123px;
+    right: 265px;
+}
+.div_text div > h1 {
+    width: 570px;
+    height: 132px;
+    color: white;
+    font-size: 55px;
+    font-family: Roboto;
+    font-weight: 900;
+    line-height: 66px;
+    margin-bottom: 35px;
+}
+.div_text div > p {
+    width: 332px;
+    height: 56px;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.div_text div:last-child{
+    width: 173px;
+    height: 5px;
+    background-color: #fff;
+}
+.icon_with_text {
+    width: 451px;
+    height: 108px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    margin-top: 64px;
+}
+.imgCar {
+    width: 199px;
+    height: 36px;
+    position: relative;
+    display: flex;
+}
+.imgCar img {
+    width: 62px;
+    height: 56px;
+}
+.imgCar span {
+    width: 139px;
+}
+.imgCar span,
+.imgGuarantee span,
+.imgTime span {
+    color: white;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 16.80px;
+}
+.imgGuarantee {
+    width: 185px;
+    height: 40px;
+    position: relative;
+    display: flex;
+}
+.imgGuarantee span {
+    width: 128px;
+}
+.imgTime {
+    width: 204px;
+    height: 38px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+.imgTime img {
+    width: 50px;
+    height: 50px;
+}
+.imgTime span {
+    width: 144px;
+}
+
+/* ############################################## Белый блок ##################################################### */
+
+.whiteBlock {
+    width: 508px;
+    height: 471px;
+    position: relative;
+    float: right;
+    bottom: 274px;
+    left: 340px;
+    z-index: 2;
+}
+h2 {
+    width: 268px;
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 30px; 
+}
+h5 {
+    color: black;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 13px;
+}
+.div_h5 h5:first-child {
+    width: 142px;
+    left: 30px;
+    top: 114px;
+    position: absolute;
+}
+.div_h5 h5:nth-child(2) {
+    width: 79px;
+    left: 30px;
+    top: 194px;
+    position: absolute;
+}
+.div_h5 h5:last-child {
+    width: 106px;
+    left: 30px;
+    top: 295px;
+    position: absolute;
+}
+.whiteBlockBG {
+    width: 508px;
+    height: 471px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+}
+.blueLine {
+    width: 448px;
+    height: 12px;
+    left: 30px;
+    top: 148px;
+    position: absolute;
+    background: #BAF1FF;
+    border-radius: 4px;
+}
+.purpleLine {
+    width: 209px;
+    height: 12px;
+    left: 30px;
+    top: 148px;
+    position: absolute;
+    background: #BE69D5;
+    border-radius: 4px;
+}
+.block68m2 {
+    width: 43px;
+    height: 20px;
+    left: 435px;
+    top: 108px;
+    position: absolute;
+    border-radius: 4px;
+}
+.blueCircle {
+    width: 33px;
+    height: 33px;
+    left: 218px;
+    top: 137px;
+    position: absolute;
+    background: #302594;
+    border-radius: 100px;
+}
+.pointTextBlock {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 70px;
+    top: 225px;
+    left: 27px;
+}
+
+.pointTextBlock .point_with_text:nth-child(5),
+.pointTextBlock .point_with_text:nth-child(6),
+.pointTextBlock .point_with_text:last-child {
+    margin-left: -45px;
+}
+.pointTextBlock .point_with_text:nth-child(4),
+.pointTextBlock .point_with_text:nth-child(5),
+.pointTextBlock .point_with_text:nth-child(6),
+.pointTextBlock .point_with_text:last-child {
+    margin-top: -10px;
+}
+.point_with_text {
+    display: flex;
+    flex-direction: row;
+    width: 82px;
+    align-items: center;
+    
+}
+.point_with_text span {
+    color: black;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.point_with_text div:last-child {
+    margin-left: 14px;
+}
+.whiteBlock_btn {
+    width: 185px;
+    height: 60px;
+    left: 161px;
+    top: 382px;
+    position: absolute;
+    background: #302594;
+    box-shadow: 0px 22px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.corner_img {
+    width: 745px;
+    height: 664px;
+    position: relative;
+    bottom: 325px;
+    left: 0px;
+    transition: transform 0.5s ease;
+    float: right;
+    z-index: 1;
+}
+.corner_img img {
+    border-top-left-radius: 150px;
+}
+.scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 220px;
+    left: 690px;
+    color: white;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+}
+.scroll img {
+    width: 33px;
+    height: 32px;
+    margin-bottom: 14px;
+}
+/* ############################################## Страница с формой ##################################################### */
+
+form {
+    width: 30%;
+}
+.div_page {
+    width: 100%;
+    height: 100vh;
+    background: #d47bed;
+}
+.form {
+    height: auto;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(45deg, lightgray, lightcoral);
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 130px;
+}
+.form h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.input_div {
+    display: flex;
+}
+input[type="text"] {
+    width: 70%;
+    text-align: center;
+    margin-right: 10px;
+}
+.input_div button {
+    cursor: pointer;
+    width: 50%;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.scroll {
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.div_text {
+    position: relative;
+    left: 0px;
+    animation: slide-in 1s ease-in forwards;
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(-150%)
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.icon_with_text {
+    position: relative;
+    left: -100%;
+    animation: slide-in 2.5s forwards;
+}
+@keyframes slide-in {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.whiteBlock {
+    position: relative;
+    animation: slideInRight 2s ease-in-out;
+    }
+    
+@keyframes slideInRight {
+    0% {
+    transform: translateX(100%);
+    }
+
+    100% {
+    transform: translateX(0);
+    }
+}
+
+
+/* ############################################## Подвал ##################################################### */
+footer {
+    width: 2034px;
+    height: 450px;
+    background: linear-gradient( 65deg, #5C39BA 25%, #BE69D5 75%);
+    position: relative;
+    top: 0px;
+}
+.footer_btn_email {
+    display: block;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.popup {
+    display: none;
+    position: relative;
+    left: 60px;
+    bottom: 270px;
+    width: 460px;
+    height: 200px;
+    margin: 20px;
+    padding: 15px;
+}
+.popup-content h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+}
+#emailForm label {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: left;
+}
+#emailForm input[type="submit"] {
+    text-align: center;
+    width: 200px;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    background: #d47bed;
+}
+#wpforms-23-field_2-container #wpforms-23-field_2 {
+    padding: 3px;
+    margin-bottom: 5px;
+}
+input[type="textarea"] {
+    text-align: center;
+    width: 200px;
+    padding: 3px;
+    height: 50px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.wpforms-hidden {
+    display: none;
+}
+div.wpforms-container-full {
+    margin: 0 auto;
+}
+.popup-content form {
+    width: 100%;
+}
+.wpforms-field-medium {
+    width: 100%;
+}
+.wpforms-submit-container #wpforms-submit-23 {
+    padding-top: 10px;
+}
+
+#map {
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.yandex_h1 {
+    margin: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+#map, #result {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+#table {
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: 115px;
+    left: 130px;
+}
+#weatherInfo {
+    color: white;
+    position: relative;
+    top: 110px;
+    left: 130px;
+}

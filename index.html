@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Code Preview</title>
+</head>
+    <body>
+        
+        <div id="component" class="container-fluid py-3">
+            <div class="bg-white rounded-3">
+                <div class="mainBlock">
+                    <header>
+                        <div class="navMenu">                            
+                            <div>
+                                <img class="navMenu_img" src="logo-white.svg">
+                            </div>                        
+                            <div class="navMenu_text">
+                                <div>
+                                    <div class="menu_btn">меню</div>
+                                    <div><a href="form.html">портфолио</a></div>
+                                    <div>цены</div>
+                                    <div><a href="yandex.html">схема работы</a></div>
+                                    <div>отзывы</div>
+                                    <div>контакты</div>
+                                    <div>Гарантия</div>
+                                </div>                            
+                                <div class="dropdownBlock">                            
+                                    <img class="close_btn" src="close.png" alt="Close button"; width = "24px"; height = "24px";>
+                                    <div class="dropdown_menu">
+                                        <p>Услуги</p>
+                                        <p>франшиза</p>
+                                        <p>вакансии</p>
+                                        <p>статьи</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div_btn">
+                                <button class="call_btn">Обратный звонок</button>
+                            </div>
+                        </div>
+                    </header>
+                    <!--############################# Первый блок ##################################-->
+                    <main>
+                        <div class="blockTwo container">
+                            <div class="div_text">
+                                <div><h1>Ремонт под ключ от 2900 руб/м&#178;.</h1></div>
+                                <div><p>При заказе ремонта делаем дизайн-проект в подарок</p></div>
+                                <div></div>
+                            </div>
+                            <div class="icon_with_text">                            
+                                <div class="imgCar">
+                                    <div><img src="R.png" alt="" style="filter: brightness(100)"></div>
+                                    <div><span>Бесплатный выезд в день обращения</span></div>                                
+                                </div>
+                                <div class="imgGuarantee">
+                                    <div><img src="icons8-guarantee-50.png" alt="" style="filter:contrast(0%) brightness(100) "></div>
+                                    <div><span>Гарантия на работу до 5 лет</span></div>                                
+                                </div>
+                                <div class="imgTime">
+                                    <div><img src="icons8-time-management-64.png" alt="" style="filter: contrast(0%) brightness(100);"></div>
+                                    <div><span>Жесткое соблюдение сроков</span></div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="corner_img">
+                            <img src="745-664.jpg" alt="">
+                        </div>
+    
+                        <!--############################# Второй блок ##################################-->
+    
+                        <div class="whiteBlock container">
+                            <div class="whiteBlockBG"></div>
+                            <div class="blueLine"></div>
+                            <div class="purpleLine"></div>
+                            <div class="block68m2">68 м&#178</div>                        
+                            <div class="blueCircle"></div>
+                            <div class="pointTextBlock">
+                                <div class="point_with_text">
+                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
+                                    <div><span>Вторичное жилье</span></div>
+                                </div>
+                                <div class="point_with_text">
+                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
+                                    <div><span>Новостройка</span></div>
+                                </div>
+                                <div class="point_with_text">
+                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
+                                    <div><span>Офис</span></div>
+                                </div>
+                                <div class="point_with_text">
+                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
+                                    <div><span>1</span></div>
+                                </div>
+                                <div class="point_with_text">
+                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
+                                    <div><span>2</span></div>
+                                </div>
+                                <div class="point_with_text">
+                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
+                                    <div><span>3+</span></div>
+                                </div>
+                                <div class="point_with_text">
+                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
+                                    <div><span>Студия</span></div>
+                                </div>
+                            </div>                            
+                            <button class="whiteBlock_btn">Отправить</button>
+                            <h2>Рассчитайте стоимость ремонта</h2>
+                            <div class="div_h5">
+                                <h5>Площадь квартиры:</h5>
+                                <h5>Тип жилья:</h5>
+                                <h5>Кол-во комнат:</h5>
+                            </div>
+                            
+                        </div>
+                        <div class="scroll">
+                            <img src="badge-download@2x.png" alt="">
+                            <p>SCROLL</p>                            
+                        </div>
+                    </main>
+                </div>
+                <footer>                    
+                    <button class="footer_btn_email">Отправить сообщение по email</button>
+                    <div class="popup">
+                        <div class="popup-content">
+                            <h3>Ввод почты</h3>
+                            <form id="emailForm">
+                                <input type="textarea" rows="3" cols="20" placeholder="Ваше сообщение" >
+                                <input type="email" id="emailInput" required placeholder="Email">
+                                <input class="footer_input_submit" type="submit" value="Отправить"></input>
+                            </form>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="jquery-3.6.4.js"></script>
+        <script src="js.js"></script>
+    </body>
+</html>
+
+
