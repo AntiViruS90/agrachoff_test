@@ -11,7 +11,10 @@ $(document).ready(function() {
     });
     
     $('.footer_btn_email').click(function () {
-        $('.popup').fadeIn(1000);
+        $('.popup').fadeIn(500);
+    })
+    $('.footer_input_submit').click(function () {
+        $('.popup').fadeOut(100);
     })
 
 

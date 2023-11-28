@@ -1,13 +1,13 @@
 
 /* ############################################## Первый блок ##################################################### */
 .mainBlock {
-    width: 2034px; 
-    height: 805px; 
+    width: 100%; 
+    height: 100%; 
     background: linear-gradient(100deg, #3625AF 0%, #C46BD5 100%);
 }
 .mainBlock .navMenu_text {
-    width: 824px; 
-    height: 19px;
+    width: 707px;
+    /* height: 16px; */
     text-align: center;
 }
 a {
@@ -15,46 +15,51 @@ a {
     color: #fff;
 }
 .navMenu {
-    width: 1507px;
+    /* width: 1507px;
     height: 60px;
     padding: 27px;
-    margin: 25px 216px 0 311px;
+    margin: 25px 216px 0 311px; */
     display: flex;
     justify-content: space-between;
+    align-items: start;
+    width: 69em;
+    margin: 0 auto;
 }
 .navMenu_img {
-    width: 151px; 
+    width: 151px;
     height: 41px;
     border: 1px solid #fff;
+    margin-top: 24px;
 }
 .navMenu_text div:first-child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    font-size: 16px; 
+    font-size: 14px; 
     font-family: Inter; 
     font-weight: 600; 
     text-transform: uppercase; 
     cursor: pointer;
 }
-.div_btn {
+/* .div_btn {
     width: 246px;
     height: 60px;
-}
+} */
 .call_btn {
-    width: 246px; 
-    height: 60px;
+    width: 159px;
+    height: 45px;
     background: #302594;
     box-shadow: 0px 22px 22px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    text-align: center; 
+    text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 11px;
     font-family: Roboto;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 60px;
+    /* line-height: 60px; */
+    margin-top: 24px;
 
 }
 .dropdown_menu {    
@@ -64,9 +69,9 @@ a {
     border-radius: 7px;
     text-align: left;
     padding-left: 30px;
-    position: relative;
-    right: 32px;
-    bottom: 15px;
+    position: absolute;
+    right: 43px;
+    top: 10px;
 }
 .dropdown_menu p {
     color: #5C39BA;
@@ -94,81 +99,95 @@ a {
 /* ############################################## Второй блок ##################################################### */
 
 .blockTwo {
-    width: 570px;
-    height: 406px;
+    width: 500px;
+    /* height: 406px; */
     position: relative;
-    top: 123px;
-    right: 265px;
+    top: 68px;
+    right: 228px;
 }
 .div_text div > h1 {
-    width: 570px;
-    height: 132px;
+    width: 475px;
+    height: 109px;
     color: white;
-    font-size: 55px;
+    font-size: 51px;
     font-family: Roboto;
     font-weight: 900;
-    line-height: 66px;
-    margin-bottom: 35px;
+    /* line-height: 66px; */
+    margin-bottom: 30px;
+    
 }
 .div_text div > p {
-    width: 332px;
-    height: 56px;
+    width: 206px;
+    height: 39px;
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     font-family: Roboto;
     font-weight: 400;
+    
+    line-height: 18px;
 }
-.div_text div:last-child{
+.div_text div:last-child {
     width: 173px;
     height: 5px;
     background-color: #fff;
+    margin-top: -15px;
 }
 .icon_with_text {
-    width: 451px;
+    width: 287px;
     height: 108px;
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-wrap: wrap;
-    gap: 42px;
-    margin-top: 64px;
+    /* gap: 29px; */
+    margin-top: 35px;
+    
+}
+.icon_with_text div div img {
+    width: 39px;
+    height: 39px;
 }
 .imgCar {
-    width: 199px;
-    height: 36px;
+    width: 122px;
+    height: 41px;
     position: relative;
     display: flex;
+    
 }
 .imgCar img {
-    width: 62px;
-    height: 56px;
+    width: 39px;
+    height: 39px;
 }
 .imgCar span {
     width: 139px;
 }
-.imgCar span,
-.imgGuarantee span,
-.imgTime span {
+.imgCar p,
+.imgGuarantee p,
+.imgTime p {
     color: white;
-    font-size: 14px;
+    font-size: 9px;
     font-family: Roboto;
     font-weight: 500;
-    line-height: 16.80px;
+    line-height: 11.8px;
+    margin-top: 6px;
 }
 .imgGuarantee {
-    width: 185px;
+    width: 124px;
     height: 40px;
     position: relative;
     display: flex;
+    gap: 9px;
+    margin-left: 18px;
 }
 .imgGuarantee span {
     width: 128px;
 }
 .imgTime {
-    width: 204px;
+    width: 135px;
     height: 38px;
     position: relative;
     display: flex;
     gap: 10px;
+    
 }
 .imgTime img {
     width: 50px;
@@ -181,102 +200,107 @@ a {
 /* ############################################## Белый блок ##################################################### */
 
 .whiteBlock {
-    width: 508px;
-    height: 471px;
-    position: relative;
+    width: 352px;
+    height: 328px;
     float: right;
-    bottom: 274px;
-    left: 340px;
+    /* position: relative; */
+    bottom: 248px;
+    left: 182px;
     z-index: 2;
 }
+.whiteBlockBG {
+    width: 352px;
+    height: 328px;
+    /* left: 0px;
+    top: 0px; */
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+}
 h2 {
-    width: 268px;
+    width: 146px;
     left: 30px;
     top: 30px;
     position: absolute;
     color: black;
-    font-size: 25px;
+    font-size: 16px;
     font-family: Roboto;
     font-weight: 600;
-    line-height: 30px; 
-}
+    line-height: 21px;
+    
+} 
+
 h5 {
     color: black;
-    font-size: 12px;
+    font-size: 10px;
     font-family: Roboto;
     font-weight: 400;
     text-transform: uppercase;
-    line-height: 13px;
+    /* line-height: 13px; */
 }
 .div_h5 h5:first-child {
     width: 142px;
     left: 30px;
-    top: 114px;
+    top: 97px;
     position: absolute;
+    
 }
 .div_h5 h5:nth-child(2) {
     width: 79px;
     left: 30px;
-    top: 194px;
+    top: 150px;
     position: absolute;
 }
 .div_h5 h5:last-child {
     width: 106px;
     left: 30px;
-    top: 295px;
+    top: 209px;
     position: absolute;
 }
-.whiteBlockBG {
-    width: 508px;
-    height: 471px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: white;
-    border-radius: 10px;
-}
+
 .blueLine {
-    width: 448px;
-    height: 12px;
+    width: 292px;
+    height: 10px;
     left: 30px;
-    top: 148px;
+    top: 124px;
     position: absolute;
     background: #BAF1FF;
     border-radius: 4px;
 }
 .purpleLine {
-    width: 209px;
-    height: 12px;
+    width: 130px;
+    height: 10px;
     left: 30px;
-    top: 148px;
+    top: 124px;
     position: absolute;
     background: #BE69D5;
     border-radius: 4px;
 }
 .block68m2 {
-    width: 43px;
+    width: 40px;
     height: 20px;
-    left: 435px;
-    top: 108px;
+    left: 284px;
+    top: 94px;
     position: absolute;
     border-radius: 4px;
+    font-size: 14px;
 }
 .blueCircle {
-    width: 33px;
-    height: 33px;
-    left: 218px;
-    top: 137px;
+    width: 24px;
+    height: 24px;
+    left: 142px;
+    top: 117px;
     position: absolute;
     background: #302594;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 .pointTextBlock {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    gap: 70px;
-    top: 225px;
-    left: 27px;
+    gap: 19px;
+    top: 157px;
+    left: 28px;
 }
 
 .pointTextBlock .point_with_text:nth-child(5),
@@ -293,24 +317,28 @@ h5 {
 .point_with_text {
     display: flex;
     flex-direction: row;
-    width: 82px;
     align-items: center;
+    width: 90px;
+    height: 50px;
     
 }
-.point_with_text span {
+.point_with_text p {
     color: black;
-    font-size: 14px;
+    font-size: 13px;
     font-family: Roboto;
     font-weight: 500;
+    /* margin-top: 11px; */
+    margin-bottom: -5px;
+    line-height: 15px;
 }
 .point_with_text div:last-child {
-    margin-left: 14px;
+    margin-left: 5px;
 }
 .whiteBlock_btn {
-    width: 185px;
-    height: 60px;
-    left: 161px;
-    top: 382px;
+    width: 127px;
+    height: 40px;
+    left: 104px;
+    top: 266px;
     position: absolute;
     background: #302594;
     box-shadow: 0px 22px 22px rgba(0, 0, 0, 0.15);
@@ -318,17 +346,17 @@ h5 {
     border: none;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-family: Roboto;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 60px;
+    /* line-height: 60px; */
 }
 .corner_img {
-    width: 745px;
-    height: 664px;
+    /* width: 745px; */
+    /* height: 643px; */
     position: relative;
-    bottom: 325px;
+    bottom: 288px;
     left: 0px;
     transition: transform 0.5s ease;
     float: right;
@@ -336,6 +364,8 @@ h5 {
 }
 .corner_img img {
     border-top-left-radius: 150px;
+    width: 478px;
+    height: 445px;
 }
 .scroll {
     display: flex;
@@ -343,8 +373,8 @@ h5 {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 220px;
-    left: 690px;
+    top: 58px;
+    left: 410px;
     color: white;
     font-size: 15px;
     font-family: Roboto;
@@ -459,11 +489,7 @@ input[type="text"] {
 
 /* ############################################## Подвал ##################################################### */
 footer {
-    width: 2034px;
-    height: 450px;
-    background: linear-gradient( 65deg, #5C39BA 25%, #BE69D5 75%);
-    position: relative;
-    top: 0px;
+    height: 350px;
 }
 .footer_btn_email {
     display: block;

@@ -10,10 +10,11 @@
     <body>
         
         <div id="component" class="container-fluid py-3">
-            <div class="bg-white rounded-3">
-                <div class="mainBlock">
+            <div class="content">
+                
+                <div class="mainBlock box">
                     <header>
-                        <div class="navMenu">                            
+                        <nav class="navMenu navbar">                            
                             <div>
                                 <img class="navMenu_img" src="logo-white.svg">
                             </div>                        
@@ -40,7 +41,7 @@
                             <div class="div_btn">
                                 <button class="call_btn">Обратный звонок</button>
                             </div>
-                        </div>
+                        </nav>
                     </header>
                     <!--############################# Первый блок ##################################-->
                     <main>
@@ -53,15 +54,15 @@
                             <div class="icon_with_text">                            
                                 <div class="imgCar">
                                     <div><img src="R.png" alt="" style="filter: brightness(100)"></div>
-                                    <div><span>Бесплатный выезд в день обращения</span></div>                                
+                                    <div><p>Бесплатный выезд в день обращения</p></div>                                
                                 </div>
                                 <div class="imgGuarantee">
                                     <div><img src="icons8-guarantee-50.png" alt="" style="filter:contrast(0%) brightness(100) "></div>
-                                    <div><span>Гарантия на работу до 5 лет</span></div>                                
+                                    <div><p>Гарантия на работу до 5 лет</p></div>                                
                                 </div>
                                 <div class="imgTime">
                                     <div><img src="icons8-time-management-64.png" alt="" style="filter: contrast(0%) brightness(100);"></div>
-                                    <div><span>Жесткое соблюдение сроков</span></div>
+                                    <div><p>Жесткое соблюдение сроков</p></div>
                                 </div>
                             </div>
                         </div>    
@@ -71,7 +72,7 @@
     
                         <!--############################# Второй блок ##################################-->
     
-                        <div class="whiteBlock container">
+                        <div class="whiteBlock">
                             <div class="whiteBlockBG"></div>
                             <div class="blueLine"></div>
                             <div class="purpleLine"></div>
@@ -79,32 +80,32 @@
                             <div class="blueCircle"></div>
                             <div class="pointTextBlock">
                                 <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
-                                    <div><span>Вторичное жилье</span></div>
+                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                    <div><p>Вторичное жилье</p></div>
                                 </div>
                                 <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
-                                    <div><span>Новостройка</span></div>
+                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                    <div><p>Новостройка</p></div>
                                 </div>
                                 <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
-                                    <div><span>Офис</span></div>
+                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                    <div><p>Офис</p></div>
                                 </div>
                                 <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
-                                    <div><span>1</span></div>
+                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                    <div><p>1</p></div>
                                 </div>
                                 <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
-                                    <div><span>2</span></div>
+                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                    <div><p>2</p></div>
                                 </div>
                                 <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
-                                    <div><span>3+</span></div>
+                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                    <div><p>3+</p></div>
                                 </div>
                                 <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="31px" height="31px"></div>
-                                    <div><span>Студия</span></div>
+                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                    <div><p>Студия</p></div>
                                 </div>
                             </div>                            
                             <button class="whiteBlock_btn">Отправить</button>
@@ -121,31 +122,63 @@
                             <p>SCROLL</p>                            
                         </div>
                     </main>
+                    <footer>     
+                        <div style="margin: 0 0 20px 30px">
+                            <a href="https://github.com/AntiViruS90/agrachoff_test/archive/refs/heads/main.zip">
+                                <button>Ссылка на для скачивания</button>
+                            </a>
+                        </div>               
+                        <button class="footer_btn_email">Отправить сообщение по email</button>
+                        <div class="popup">
+                            <div class="popup-content">
+                                <h3>Ввод почты</h3>
+                                <form id="emailForm">
+                                    <input type="textarea" id="message" rows="3" cols="20" placeholder="Ваше сообщение" >
+                                    <input type="email" id="email" required placeholder="Email">
+                                    <input class="footer_input_submit" type="submit" value="Отправить"></input>
+                                </form>
+                            </div>
+                        </div> 
+                    </footer>
                 </div>
-                <footer>     
-                    <div style="margin: 0 0 20px 30px">
-                        <a href="https://github.com/AntiViruS90/agrachoff_test/archive/refs/heads/main.zip">
-                            <button>Ссылка на для скачивания</button>
-                        </a>
-                    </div>               
-                    <button class="footer_btn_email">Отправить сообщение по email</button>
-                    <div class="popup">
-                        <div class="popup-content">
-                            <h3>Ввод почты</h3>
-                            <form id="emailForm">
-                                <input type="textarea" rows="3" cols="20" placeholder="Ваше сообщение" >
-                                <input type="email" id="emailInput" required placeholder="Email">
-                                <input class="footer_input_submit" type="submit" value="Отправить"></input>
-                            </form>
-                        </div>
-                    </div>
-                    
-                </footer>
+                
             </div>
         </div>
-        <script src="jquery-3.6.4.js"></script>
+        <script src="jquery-3.7.0.min.js"></script>
         <script src="js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            // Обработчик события отправки формы
+            $('#emailForm').submit(function(event) {
+                event.preventDefault(); // Отменить обычное поведение формы
+    
+                // Получение введенных значений
+                var email = $('#email').val();
+                var message = $('#message').val();
+    
+                // AJAX-запрос для отправки сообщения через Elastic Email API
+                $.ajax({
+                    url: 'https://api.elasticemail.com/v2/email/send',
+                    type: 'POST',
+                    data: {
+                        'apikey': '651B29264F70F536E2A71C57D0039E71C8E749C73B29F0A2212E72D4949BC55A195F891CD7F43719966C586C39C9A5AF',
+                        'from': 'Отправитель <slava90nikitin90@gmail.com>',
+                        'to': email,
+                        'subject': 'Тема сообщения',
+                        'bodyHtml': message
+                    },
+                    success: function(response) {
+                        alert('Сообщение успешно отправлено!');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Ошибка при отправке сообщения: ' + error);
+                    }
+                });
+            });
+        </script>
     </body>
 </html>
 
 
+
+    
