@@ -5,158 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="bootstrap.min.css" rel="stylesheet">
     <title>Bootstrap Code Preview</title>
 </head>
-    <body>
-        
-        <div id="component" class="container-fluid py-3">
-            <div class="content">
-                
+    <body class="skin-red sidebar-mini parent" style="height: auto; min-height: 100%;">
+        <div class="wrapper" style="height: auto; min-height: 100%;">
+            <div class="content">                
                 <div class="mainBlock box">
-                    <header>
-                        <nav class="navMenu navbar">                            
-                            <div>
-                                <img class="navMenu_img" src="logo-white.svg">
-                            </div>                        
-                            <div class="navMenu_text">
-                                <div>
-                                    <div class="menu_btn">меню</div>
-                                    <div><a href="form.html">портфолио</a></div>
-                                    <div>цены</div>
-                                    <div><a href="yandex.html">схема работы</a></div>
-                                    <div>отзывы</div>
-                                    <div>контакты</div>
-                                    <div>Гарантия</div>
-                                </div>                            
-                                <div class="dropdownBlock">                            
-                                    <img class="close_btn" src="close.png" alt="Close button"; width = "24px"; height = "24px";>
-                                    <div class="dropdown_menu">
-                                        <p>Услуги</p>
-                                        <p>франшиза</p>
-                                        <p>вакансии</p>
-                                        <p>статьи</p>
+                    <header class="main-header">
+                        <div class="container">
+                            <nav class="navbar navbar-expand-lg d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 " aria-label="Thirteenth navbar example">
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+                                        <a class="navbar-brand col-lg-3 me-0 navMenu_img" href="/" style="margin-top: 5px; margin-left: 0px;">
+                                            <img src="logo-white.svg" alt="Logo"></a>
+                                        <ul class="navbar-nav col-lg-6 nav col-12 col-md-6 mb-2 justify-content-lg-center">
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link" href="#" data-bs-toggle="dropdown" style="color: white;" aria-expanded="false">меню</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#" style="color: #5C39BA; text-transform: uppercase;">Услуга</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="color: #5C39BA; text-transform: uppercase;">франшиза</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="color: #5C39BA; text-transform: uppercase;">вакансии</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="color: #5C39BA; text-transform: uppercase;">статьи</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="form.html" style="color: white;">портфолио</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#" style="color: white;">цены</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="yandex.html" style="color: white;">схема</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="https://github.com/AntiViruS90/agrachoff_test/archive/refs/heads/main.zip" style="color: white;">отзывы</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#" style="color: white;">контакты</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Гарантия</a>
+                                            </li>                                    
+                                        </ul>
+                                        <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                                            <button type="button" class="btn btn-primary" id="header_btn" 
+                                                style="background: #302594; margin-top: 40px;">Обратный звонок</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="div_btn">
-                                <button class="call_btn">Обратный звонок</button>
-                            </div>
-                        </nav>
-                    </header>
-                    <!--############################# Первый блок ##################################-->
-                    <main>
-                        <div class="blockTwo container">
-                            <div class="div_text">
-                                <div><h1>Ремонт под ключ от 2900 руб/м&#178;.</h1></div>
-                                <div><p>При заказе ремонта делаем дизайн-проект в подарок</p></div>
-                                <div></div>
-                            </div>
-                            <div class="icon_with_text">                            
-                                <div class="imgCar">
-                                    <div><img src="R.png" alt="" style="filter: brightness(100)"></div>
-                                    <div><p>Бесплатный выезд в день обращения</p></div>                                
-                                </div>
-                                <div class="imgGuarantee">
-                                    <div><img src="icons8-guarantee-50.png" alt="" style="filter:contrast(0%) brightness(100) "></div>
-                                    <div><p>Гарантия на работу до 5 лет</p></div>                                
-                                </div>
-                                <div class="imgTime">
-                                    <div><img src="icons8-time-management-64.png" alt="" style="filter: contrast(0%) brightness(100);"></div>
-                                    <div><p>Жесткое соблюдение сроков</p></div>
-                                </div>
-                            </div>
-                        </div>    
-                        <div class="corner_img">
-                            <img src="745-664.jpg" alt="">
+                            </nav>
                         </div>
-    
-                        <!--############################# Второй блок ##################################-->
-    
-                        <div class="whiteBlock">
-                            <div class="whiteBlockBG"></div>
-                            <div class="blueLine"></div>
-                            <div class="purpleLine"></div>
-                            <div class="block68m2">68 м&#178</div>                        
-                            <div class="blueCircle"></div>
-                            <div class="pointTextBlock">
-                                <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
-                                    <div><p>Вторичное жилье</p></div>
+                    </header>
+
+                    <main>
+                        <div class="container">
+                            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+                                <div class="blockTwo col-md-8 mb-2 col-sm-12 col-sm-6 col-xs-10" >
+                                    <div class="div_text">
+                                        <div><h1>Ремонт под ключ от 2900 руб/м&#178;.</h1></div>
+                                        <div><p>При заказе ремонта делаем дизайн-проект в подарок</p></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="icon_with_text">                            
+                                        <div class="imgCar">
+                                            <div><img src="R.png" alt="" style="filter: brightness(100)"></div>
+                                            <div><p>Бесплатный выезд в день обращения</p></div>                                
+                                        </div>
+                                        <div class="imgGuarantee">
+                                            <div><img src="icons8-guarantee-50.png" alt="" style="filter:contrast(0%) brightness(100) "></div>
+                                            <div><p>Гарантия на работу до 5 лет</p></div>                                
+                                        </div>
+                                        <div class="imgTime">
+                                            <div><img src="icons8-time-management-64.png" alt="" style="filter: contrast(0%) brightness(100);"></div>
+                                            <div><p>Жесткое соблюдение сроков</p></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
-                                    <div><p>Новостройка</p></div>
+                                <div class="whiteBlock col-md-8 col-sm-12 col-sm-6 col-xs-10" style="width: 356px; height: 328px;">
+                                    <div class="whiteBlockBG"></div>
+                                    <div class="blueLine"></div>
+                                    <div class="purpleLine"></div>
+                                    <div class="block68m2">68 м&#178</div>                        
+                                    <div class="blueCircle"></div>
+                                    <div class="pointTextBlock">
+                                        <div class="point_with_text">
+                                            <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                            <div><p>Вторичное жилье</p></div>
+                                        </div>
+                                        <div class="point_with_text">
+                                            <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                            <div><p>Новостройка</p></div>
+                                        </div>
+                                        <div class="point_with_text">
+                                            <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                            <div><p>Офис</p></div>
+                                        </div>
+                                        <div class="point_with_text">
+                                            <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                            <div><p>1</p></div>
+                                        </div>
+                                        <div class="point_with_text">
+                                            <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                            <div><p>2</p></div>
+                                        </div>
+                                        <div class="point_with_text">
+                                            <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                            <div><p>3+</p></div>
+                                        </div>
+                                        <div class="point_with_text">
+                                            <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
+                                            <div><p>Студия</p></div>
+                                        </div>
+                                    </div>                            
+                                    <button class="whiteBlock_btn">Отправить</button>
+                                    <h2>Рассчитайте стоимость ремонта</h2>
+                                    <div class="div_h5">
+                                        <h5>Площадь квартиры:</h5>
+                                        <h5>Тип жилья:</h5>
+                                        <h5>Кол-во комнат:</h5>
+                                    </div>
+                                    
                                 </div>
-                                <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
-                                    <div><p>Офис</p></div>
-                                </div>
-                                <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
-                                    <div><p>1</p></div>
-                                </div>
-                                <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
-                                    <div><p>2</p></div>
-                                </div>
-                                <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
-                                    <div><p>3+</p></div>
-                                </div>
-                                <div class="point_with_text">
-                                    <div><img src="icons8-round-64.png" alt="" width="25px" height="25px"></div>
-                                    <div><p>Студия</p></div>
-                                </div>
-                            </div>                            
-                            <button class="whiteBlock_btn">Отправить</button>
-                            <h2>Рассчитайте стоимость ремонта</h2>
-                            <div class="div_h5">
-                                <h5>Площадь квартиры:</h5>
-                                <h5>Тип жилья:</h5>
-                                <h5>Кол-во комнат:</h5>
                             </div>
                             
                         </div>
+                        <div class="element corner_img"></div>
                         <div class="scroll">
                             <img src="badge-download@2x.png" alt="">
                             <p>SCROLL</p>                            
                         </div>
+                        <footer>
+                            <button class="footer_btn_email">Отправить сообщение по email</button>
+                            <div class="popup">
+                                <div class="popup-content">
+                                    <h3>Ввод почты</h3>
+                                    <form id="emailForm" method="post">
+                                        <div class="mb-3">                                            
+                                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">                                            
+                                            <textarea class="form-control" id="message" rows="4"
+                                                style="width: 300px" placeholder="Ваше сообщение"></textarea>
+                                            <input class="footer_input_submit btn" type="submit" value="Отправить" 
+                                                style="margin-top: 15px; height: 38px;"></input>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div> 
+                        </footer>
                     </main>
-                    <footer>     
-                        <div style="margin: 0 0 20px 30px">
-                            <a href="https://github.com/AntiViruS90/agrachoff_test/archive/refs/heads/main.zip">
-                                <button>Ссылка на для скачивания</button>
-                            </a>
-                        </div>               
-                        <button class="footer_btn_email">Отправить сообщение по email</button>
-                        <div class="popup">
-                            <div class="popup-content">
-                                <h3>Ввод почты</h3>
-                                <form id="emailForm">
-                                    <input type="textarea" id="message" rows="3" cols="20" placeholder="Ваше сообщение" >
-                                    <input type="email" id="email" required placeholder="Email">
-                                    <input class="footer_input_submit" type="submit" value="Отправить"></input>
-                                </form>
-                            </div>
-                        </div> 
-                    </footer>
-                </div>
-                
+                </div>                
             </div>
         </div>
         <script src="jquery-3.7.0.min.js"></script>
         <script src="js.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
         <script>
-            // Обработчик события отправки формы
+            // Обработчик события отправки почты
             $('#emailForm').submit(function(event) {
-                event.preventDefault(); // Отменить обычное поведение формы
-    
-                // Получение введенных значений
+                event.preventDefault();
                 var email = $('#email').val();
                 var message = $('#message').val();
-    
-                // AJAX-запрос для отправки сообщения через Elastic Email API
                 $.ajax({
                     url: 'https://api.elasticemail.com/v2/email/send',
                     type: 'POST',
@@ -168,17 +183,13 @@
                         'bodyHtml': message
                     },
                     success: function(response) {
-                        alert('Сообщение успешно отправлено!');
+                        // alert('Сообщение успешно отправлено!');
                     },
                     error: function(xhr, status, error) {
-                        alert('Ошибка при отправке сообщения: ' + error);
+                        // alert('Ошибка при отправке сообщения: ' + error);
                     }
                 });
             });
         </script>
     </body>
 </html>
-
-
-
-    

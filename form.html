@@ -10,8 +10,8 @@
     <body>
         <div class="div_page">
             <div class="input_form">
-                <form method="post">
-                    <div class="form" style="left: 0px; top: 30px"> 
+                <form class="row" method="post">
+                    <div class="col-sm-6 col-md-6" style="left: 0px; top: 30px">
                         <h3>Форма отправки запроса</h3>
                         <div class="input_div">
                             <input type="text" id="seach_city_input" placeholder="Введите Город">
@@ -20,13 +20,16 @@
                     </div>            
                 </form>
                 <div class="table" id="table" style="top: 5px; left: 30px">
-                    <table id="responseTable"></table>
-                </div>
+                    <table id="responseTable" class="table table-white table-striped"></table>
+                </div>                
             </div>
             <div class="weather_info" id="weatherInfo" style="top: 0px; left: 30px; width: 670px"></div>
         </div>
         
         <script src="weather.js"></script>
+        <script src="jquery-3.7.0.min.js"></script>
+        <script src="js.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
     </body>
 </html>
 
